@@ -17,6 +17,7 @@ import projectBase from '../UI/ProjectBase.vue';
 import p1 from '../UI/images/p1.png';
 import p3 from '../UI/images/p3.png';
 import p2 from '../UI/images/p2.jpeg';
+import p4 from '../UI/images/p4.png'
 
 export default {
 	components: {
@@ -31,14 +32,19 @@ export default {
 				descripcion: 'Sistema CRUD echo con Javascript, AJAX, PHP y Bootstrap'
 			},
 			{
-				titulo:'Monster Slayer',
-				imagen: p3,
-				descripcion: 'Un minijuego echo principalmente con Javascript usando el framework Vue.js'
-			},
-			{
 				titulo:'Aplicación del clima',
 				imagen: p2,
 				descripcion: 'Una pagina web con el pronostico de mañana de los algunos de los paises de latinoamérica, usa APIREST'
+			},
+			{
+				titulo:'Vibes, red social (en progreso)',
+				imagen: p4,
+				descripcion: 'Una red social simple usando Vue.js, node.js y firebase'
+			},
+			{
+				titulo:'Monster Slayer',
+				imagen: p3,
+				descripcion: 'Un minijuego echo principalmente con Javascript usando el framework Vue.js'
 			}
 			]
 		}
