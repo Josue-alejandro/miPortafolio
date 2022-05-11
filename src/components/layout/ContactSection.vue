@@ -1,7 +1,7 @@
 <template>
 	<section id="contacto">
 		<h2>Contacto</h2>
-		<p>Si quieres contactar conmigo para trabajo o cualquier otro asunto, puedes usar el siguiente correo electronico o numero de teléfono</p>
+		<p>Si quieres contactar conmigo para trabajo o cualquier otro asunto, puedes usar el siguiente correo electrónico o numero de teléfono</p>
 
 		<h3>Alejandromzv18@gmail.com</h3>
 		<h3>+58 414 664 0135</h3>
@@ -10,7 +10,7 @@
 
 <style scoped>
 section {
-	background-color: rgb(50, 120, 150);
+	background-color: #333399;
 	color: white;
 	height: 500px;
 	display: flex;
@@ -30,6 +30,6 @@ p {
 
 h3 {
 	text-align: center;
-	background-color: rgb(50, 120, 150);
+	background-color: #333399;
 }
 </style>

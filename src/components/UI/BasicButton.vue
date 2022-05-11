@@ -1,5 +1,5 @@
 <template>
-	<a :href="anchorTag">
+	<a :href="anchorTag" target="_blank" rel="noopener noreferrer">
 	<button>
 		<slot></slot>
 	</button>
@@ -18,8 +18,8 @@ button {
 	border: 0px;
 	color: white;
 	background-color: rgb(30, 30, 30);
-	border: 2px solid rgb(50, 120, 150);
-	border-radius: 10px;
+	border: 1px solid rgb(50, 120, 150);
+	border-radius: 5px;
 	margin: 0em 6em 3.50em 6em;
 	transition: 0.1s;
 }

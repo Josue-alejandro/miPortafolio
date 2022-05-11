@@ -14,6 +14,7 @@
 				<li>CSS</li>
 				<li>Javascript</li>
 				<li>Vue.js</li>
+				<li>React</li>
 				<li>Bootstrap, Materialize</li>
 			</ul>
 		</div>
@@ -27,7 +28,7 @@
 				<li>Node.js</li>
 				<li>MongoDB</li>
 				<li>PHP</li>
-				<li>MySQL</li>
+				<li>SQL</li>
 			</ul>
 		</div>
 	</div>
@@ -39,10 +40,14 @@
 		display: flex;
 		flex-direction: column;
 	}
+
+	ul {
+		padding-left: 0px;
+	}
 }
 
 section {
-	background-color: rgb(50, 120, 150);
+	background-color: #333399;
 	color: white;
 }
 
@@ -59,20 +64,30 @@ h2 {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	padding-top: 5em;
+	padding-bottom: 5em;
 }
 
 .carrusel div {
-	padding: 1em;
+	padding: 1em 0em 1em 0em;
 	width: 400px;
+}
+
+@media (max-width: 991.98px) {
+	.carrusel div{
+		width: auto;
+	}
+
+	
 }
 
 ul {
 	list-style: none;
 	padding: 1em;
-	padding-left: 58px;
 }
 
 .texto {
+	padding: 0px;
 }
 
 .texto h3 {

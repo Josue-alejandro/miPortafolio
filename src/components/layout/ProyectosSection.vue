@@ -8,7 +8,8 @@
 		:key="proyecto.titulo" 
 		:project-titulo="proyecto.titulo"
 		:project-image="proyecto.imagen"
-		:project-description="proyecto.descripcion"></project-base>
+		:project-description="proyecto.descripcion"
+		:project-link="proyecto.link"></project-base>
 	</div>
 </template>
 
@@ -16,7 +17,7 @@
 import projectBase from '../UI/ProjectBase.vue';
 import p1 from '../UI/images/p1.png';
 import p3 from '../UI/images/p3.png';
-import p2 from '../UI/images/p2.jpeg';
+import p2 from '../UI/images/p2.png';
 import p4 from '../UI/images/p4.png'
 
 export default {
@@ -29,22 +30,26 @@ export default {
 			{
 				titulo:'Sistema CRUD',
 				imagen: p1,
-				descripcion: 'Sistema CRUD echo con Javascript, AJAX, PHP y Bootstrap'
+				descripcion: 'Sistema CRUD hecho con Javascript, AJAX, PHP y Bootstrap.',
+				link: 'https://github.com/Josue-alejandro'
 			},
 			{
 				titulo:'Aplicación del clima',
 				imagen: p2,
-				descripcion: 'Una pagina web con el pronostico de mañana de los algunos de los paises de latinoamérica, usa APIREST'
+				descripcion: 'Web que muestra el clima de las ciudades del mundo, hecha con Vue.js y API rest.',
+				link: 'https://weatherappjosh.netlify.app/'
 			},
 			{
-				titulo:'Vibes, red social (en progreso)',
+				titulo:'Gajelici, e-commerce',
 				imagen: p4,
-				descripcion: 'Una red social simple usando Vue.js, node.js y firebase'
+				descripcion: 'Tienda online hecha con Wordpress',
+				link: 'https://gajelici.com/'
 			},
 			{
 				titulo:'Monster Slayer',
 				imagen: p3,
-				descripcion: 'Un minijuego echo principalmente con Javascript usando el framework Vue.js'
+				descripcion: 'Un minijuego hecho principalmente con Javascript usando el framework Vue.js',
+				link: 'https://github.com/Josue-alejandro'
 			}
 			]
 		}
@@ -59,6 +64,8 @@ export default {
 	flex-wrap: wrap;
 	background-color: rgb(30, 30, 30);
 	justify-content: space-around;
+	padding-top: 5em;
+	padding-bottom: 5em;
 }
 
 @media (max-width: 991.98px) {
@@ -70,7 +77,7 @@ export default {
 }
 
 section {
-	background-color: rgb(50, 120, 150);
+	background-color: #333399;
 	color: white;
 }
 

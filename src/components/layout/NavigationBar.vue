@@ -31,9 +31,7 @@ export default {
 
 <style scoped>
 span {
-	padding: 1.50em;
-	padding-left: 0em;
-	padding-right: 2em;
+	margin-left: 1em;
 }
 
 a {
@@ -47,7 +45,7 @@ nav {
 	height: 100%;
 	position: fixed;
 	width: 60%;
-	margin-top: 70px;
+	margin-top: 54px;
 }
 
 ul {
@@ -64,12 +62,12 @@ ul li:hover {
 }
 
 .select-menu {
-	background-color: rgb(50, 120, 150);
+	background-color: #333399;
 	color: white;
 	font-weight: 800;
-	position: fixed;
+	position: absolute;
 	width: 100%;
-	padding: 1.50em;
+	padding: 1em 0em 1em 0em;
 }
 
 .select-menu:hover {
