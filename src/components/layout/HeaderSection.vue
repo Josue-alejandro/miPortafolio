@@ -9,7 +9,7 @@
 				</li>
 			</ul>
 			<p>Soy desarrollador web orientado principalmente al front-end y con conocimientos solidos en back-end. Tengo 20 años y desde muy joven me senti interesado por el mundo de la programación. En este portafolio podras encontrar enlaces a los diferentes proyectos que he desarrollado.</p>
-			<basic-button anchor-tag="https://drive.google.com/file/d/1F75YEQY5dAFAyS-AcMvqJ_kQPfON_pQV/view?usp=sharing">Descargar CV</basic-button>
+			<basic-button anchor-tag="#contacto">Contactame</basic-button>
 		</div>
 	</header>
 </template>
