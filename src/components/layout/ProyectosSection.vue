@@ -40,10 +40,10 @@ export default {
 				link: 'https://weatherappjosh.netlify.app/'
 			},
 			{
-				titulo:'Gajelici, e-commerce',
+				titulo:'Buscador de imagenes',
 				imagen: p4,
-				descripcion: 'Tienda online hecha con Wordpress',
-				link: 'https://gajelici.com/'
+				descripcion: 'Un Buscador de imagenes hecho con React y la API de Unsplash',
+				link: 'https://reactdemosearchimages.netlify.app/'
 			},
 			{
 				titulo:'Monster Slayer',
